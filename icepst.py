@@ -3,3 +3,7 @@ def winkel2time(drehzahl, kurbelwinkel):
   print('----------------------------------------')
   print('t_inj: ' + str("{:.1f}".format(t_inj)) + ' µs')
   print('----------------------------------------')
+  
+  
+def kmh2mph(kmh):
+  print(kmh/1,609)
